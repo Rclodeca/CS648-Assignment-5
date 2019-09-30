@@ -1,17 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Hepta+Slab|Oswald&display=swap");
-/* BASIC STYLES */
-body {
-  font-family: "Roboto";
-  font-size: 1em;
-  line-height: 2em;
-  background: url("../images/bg.gif") #FFF repeat-x;
-  margin: 0; }
-
-main {
-  width: 940px;
-  margin: 0 auto;
-  padding: 0 10px; }
-
 /* NAVIGATION */
 figure {
   width: 400px;
@@ -39,6 +26,19 @@ nav {
         letter-spacing: -0.01em; }
       nav ul li a:hover {
         color: #FFF; }
+
+/* BASIC STYLES */
+body {
+  font-family: "Roboto";
+  font-size: 1em;
+  line-height: 2em;
+  background: url("../images/bg.gif") #FFF repeat-x;
+  margin: 0; }
+
+main {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px; }
 
 /* HEADER */
 header {

@@ -1,45 +1,12 @@
 @import "mixins";
+@import "variables";
+@import "navigation";
 
-
-
-@import url('https://fonts.googleapis.com/css?family=Hepta+Slab|Oswald&display=swap');
-
-
-$red: #E65C43;
-$orange: #F25C43;
-$white: #FFF; 
-$light-grey: #666;
-$dark-grey: #30353D;
-$beige: #F5F6F6;
-
-$font-body: 'Roboto';
-
-$logo_img: url('../images/logo.png');
-$bg_img: url('../images/bg.gif');
-$social_media_img: url('../images/social-media.png');
 
 
 /* BASIC STYLES */
 body                        {font-family: $font-body;font-size:1em;line-height:2em;background:$bg_img $white repeat-x;margin:0;}
 main                        {width:940px;margin:0 auto;padding:0 10px;}
-
-/* NAVIGATION */
-figure                      {@include logo($logo_img)}
-nav                         {
-                            width:540px;height:190px;float:left;text-align:right;
-                                ul {
-                                    list-style-type:none;margin-top:95px;
-                                    li{
-                                        display:inline;font-size:0.8em;margin-right:10px;
-                                        a {
-                                            color:$red;text-decoration:none;letter-spacing:-0.01em;
-                                        }
-                                        a:hover {
-                                            color:$white;
-                                        }
-                                    }
-                                }
-                            }
 
 /* HEADER */
 header                      {width:inherit;clear:both;text-align:center;padding-top:40px;}
